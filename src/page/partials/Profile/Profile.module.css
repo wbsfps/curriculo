@@ -1,0 +1,18 @@
+.main_container {
+    display: var(--display-flex);
+    align-items: var(--align-items-center);
+    justify-content: var(--justify-content-center);
+    gap: 2rem;
+}
+
+.name {
+    color: var(--color-primary);
+    font-family: var(--font-family);
+    font-size: var(--font-size-main);
+}
+
+.job {
+    color: var(--color-secundary);
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+}

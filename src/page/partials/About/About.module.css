@@ -1,0 +1,22 @@
+.main_container {
+    display: var(--display-flex);
+    align-items: var(--align-items-center);
+    justify-content: var(--justify-content-center);
+    flex-direction: column;
+    margin-top: 35px;
+    gap: 0.5rem;
+}
+
+.title {
+    margin-right: 27.4rem;
+    color: var(--color-primary);
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+}
+
+.description {
+    color: var(--color-secundary);
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    width: 25%;
+}

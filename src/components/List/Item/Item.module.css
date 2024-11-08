@@ -1,0 +1,36 @@
+.item {
+    width: 100%;
+    max-width: 600px; 
+    box-sizing: border-box;
+    padding: 2rem 0 0 0;
+}
+
+.icon {
+    margin-left: 0.5rem;
+}
+
+.title, .description, .tecnologies, .period {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+}
+
+.title {
+    color: var(--color-primary);
+}
+
+.description {
+    color: var(--color-secundary);
+}
+
+.tecnologies, .period {
+    color: var(--color-terciary);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--color-secundary);
+    text-decoration: underline;
+}

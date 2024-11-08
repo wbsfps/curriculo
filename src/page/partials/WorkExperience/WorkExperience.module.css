@@ -1,0 +1,13 @@
+.main_container {
+    padding-top: 49px;
+    display: var(--display-flex);
+    align-items: var(--align-items-center);
+    justify-content: var(--justify-content-center);
+}
+
+.title {
+    color: var(--color-primary);
+    font-family: var(--font-family);
+    margin-right: 30rem;
+    font-size: var(--font-size-base);
+}

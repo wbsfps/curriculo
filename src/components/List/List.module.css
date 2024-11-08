@@ -1,0 +1,10 @@
+.main_container {
+    display: var(--display-flex);
+    align-items: var(--align-items-center);
+    justify-content: var(--justify-content-center);
+    flex-direction: column;
+}
+
+.list {
+    list-style: none;
+}
