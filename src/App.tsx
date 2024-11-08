@@ -5,7 +5,7 @@ import WorkExpercience from './page/partials/WorkExperience';
 import SideProjects from './page/partials/SideProjects';
 import Links from './page/partials/Links';
 
-import './components/GlobalStyle/GlobalStyle.module.css';
+import './components/GlobalStyle/GlobalStyle.css';
 
 function App() {
 
