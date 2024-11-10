@@ -5,25 +5,25 @@ import { IExperiences } from '../../../types/Experiences';
 
 const experiences: IExperiences[] = [
     {
-        title: 'RPA Developer - InfluirTec',
-        description: 'Contributes to the development of process automation requested by the company Banese Card, using the Influir tool.',
+        title: 'Desenvolvedor RPA - InfluirTec',
+        description: 'Automações de processos solicitados pela empresa Banese Card, utilizando a ferramenta da Influir.',
         tecnologies: ['JavaScript', 'Python', 'Selenium'],
-        period: 'March 2024 - November 2024',
+        period: 'Março 2024 - Novembro 2024',
         url: 'https://www.influirtec.com.br/'
     },
 
     {
-        title: 'BackEnd Developer - Apoio Fiel',
-        description: 'In partnership with Porto Digital, we created a solution to help NGOs manage donations.',
+        title: 'Desenvolvedor BackEnd - Apoio Fiel',
+        description: 'Em parceria com o Porto Digital, criamos uma solução para ajudar ONGs a gerenciar doações.',
         tecnologies: ['Node.js', 'Next.js', 'Prisma', 'Fastify', 'Swagger'],
-        period: 'February 2024 - June 2024',
+        period: 'Fevereiro 2024 - Junho 2024',
         url: 'https://github.com/Apoio-Fiel'
     },
     {
-        title: 'FrontEnd Developer - Tiradentes Group',
-        description: 'In partnership with Porto Digital, we created a solution to create a Dentistry website for the Tiradentes Group.',
+        title: 'Desenvolvedor FrontEnd - Grupo Tiradentes',
+        description: 'Em parceria com o Porto Digital, criamos uma solução para a criação de um site de Odontologia para o Grupo Tiradentes.',
         tecnologies: ['HTML5', 'CSS', 'Bootstrap', 'JavaScript'],
-        period: 'June 2023 - December 2023',
+        period: 'Julho 2023 - Dezembro 2023',
         url: 'https://www.grupotiradentes.com/'
     }
 ];
@@ -33,7 +33,7 @@ function WorkExpercience() {
     return (
         <>
             <section className={style.main_container}>
-                <h3 className={style.title}>Work Expercience</h3>
+                <h3 className={style.title}>Experiência Profissional</h3>
             </section>
             <List experiences={experiences}/>
         </>

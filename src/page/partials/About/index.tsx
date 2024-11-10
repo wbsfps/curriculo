@@ -5,9 +5,9 @@ function About() {
     return (
 
         <section className={style.main_container}>
-            <h3 className={style.title}>About</h3>
+            <h3 className={style.title}>Sobre mim</h3>
             <p className={style.description}>
-                IT professional with 9 months of experience in RPA, currently transitioning to back-end web development. With a solid foundation in Python and Java, I seek to deepen my knowledge in Java and Spring Boot for robust and scalable web projects.
+            Profissional de TI com 9 meses de experiência em automação de processos (RPA), em transição para o desenvolvimento web back-end. Possuo uma base sólida em Python e Java, e estou focado em aprimorar habilidades em Java e Spring Boot para desenvolver soluções web escaláveis e de alta performance.
             </p>
         </section>
 

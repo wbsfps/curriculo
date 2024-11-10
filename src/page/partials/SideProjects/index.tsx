@@ -5,17 +5,17 @@ import style from './SideProjects.module.css';
 
 const personalProjects: IExperiences[] = [
     {
-        title: 'Simple CRUD With Spring Boot',
-        description: 'Simple CRUD application for people management, developed with Spring Boot. Includes basic operations of creating, reading, updating and deleting records.',
+        title: 'CRUD com Spring Boot',
+        description: 'Aplicação CRUD simples para gerenciamento de pessoas, desenvolvida com Spring Boot. Inclui operações básicas de criação, leitura, atualização e exclusão de registros.',
         tecnologies: ['Spring Boot', 'Java', 'Swagger'],
-        period: 'March 2024 - November 2024',
+        period: 'Março 2024 - Novembro 2024',
         url: 'https://github.com/wbsfps/simple-crud-person-spring-boot'
     },
     {
-        title: 'Personal Portfolio',
-        description: 'Personal portfolio developed with React and TypeScript. Includes my experiences and projects.',
-        tecnologies: ['React', 'TypeScript', 'Vite'],
-        period: 'October 2024 - November 2024',
+        title: 'Currículo',
+        description: 'Currículo digital interativo com foco em organização e performance, desenvolvido com React, TypeScript, Vite e CSS Modules.',
+        tecnologies: ['React', 'TypeScript', 'Vite', 'CSS Modules'],
+        period: 'Outubro 2024 - Novembro 2024',
         url: 'https://github.com/wbsfps/portfolio'
     }
 ]
@@ -24,7 +24,7 @@ function SideProjects() {
     return (
         <>
             <section className={style.main_container}>
-                <h3 className={style.title}>Side Projects</h3>
+                <h3 className={style.title}>Projetos</h3>
             </section>
             <List experiences={personalProjects}/>
         </>
